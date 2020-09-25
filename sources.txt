@@ -1,0 +1,22 @@
+Sources:
+
+Assets:
+Nav buttons edited from: https://www.shutterstock.com/image-illustration/set-realistic-stone-interface-buttons-fantasy-422103172
+Background from: https://cutewallpaper.org/21/legends-of-zelda-wallpaper/Legend-of-Zelda-Wallpaper-Dump-Album-on-Imgur.jpg
+Font source: https://www.dafont.com/the-wild-breath-of-zelda.font
+Html body banner source: https://www.wallpapermaiden.com/wallpaper/29924/the-legend-of-zelda-a-link-between-worlds-castle-river/download/3840x2160
+Link artwork: https://freepngimg.com/png/21552-zelda-link
+Zelda artwork: https://www.mariowiki.com/Princess_Zelda
+Ganon artwork: https://www.ssbwiki.com/Ganondorf
+Impa artwork: https://www.pngegg.com/en/png-eomlc
+Tingle artwork: https://www.uokpl.rs/rsvi/iwboTbT_tingle-zelda-hd/
+Beedle artwork: https://www.zeldadungeon.net/wiki/Beedle
+Epona artwork: https://www.deviantart.com/mrvideo-vidman/art/Link-and-Epona-PNG-Render-614815663
+
+Techniques:
+Display list in line technique found at https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_horizontal
+Heading shadow effect technique found from: https://www.w3schools.com/css/css3_shadows.asp
+Custom font import technique found from: https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website
+CSS all caps text technique found at: https://www.w3schools.com/cssref/pr_text_text-transform.asp
+CSS background image technique found at: https://www.w3schools.com/cssref/pr_background-image.asp
+CSS rounded element corners found ar: https://www.w3schools.com/css/css3_borders.asp
