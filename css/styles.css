@@ -72,6 +72,10 @@ h4 {
 	text-shadow: 1px 1px 1px black; /* black drop shadow for h4 headings */
 		 
 }
+td.timeline h4{
+	font-size:150%;
+	text-shadow: 1px 1px 1px black; /* black drop shadow for h3 headings */
+}
 p {
 	margin-bottom: 1em;
 }
@@ -79,12 +83,11 @@ footer {
 	text-align: center;
 	color: white;
 }
-table, th, td{
+table, th, td {
 	text-align: center;
-	width: 80%;
+	border-collapse: collapse;
 	margin-right: auto;
 	margin-left: auto;
-	/*border: 1px solid black;*/
 }
 th.desc, td.desc{
 	padding: 0% 7% 0% 7%;
@@ -99,7 +102,25 @@ display:inline;		/*technique found at https://www.w3schools.com/html/tryit.asp?f
 #Name, #Class_Name{	/*makes my name and the class name at the top of the page centered */
 	text-align: center;
 }
-
+em{
+	text-shadow: 2px 2px 2px #ccb33d; /*golden yellow drop-shadow*/
+}
+.timeline{
+	border: 1px solid black;
+	text-align: center;
+	border-collapse: collapse;
+	background: #f2f2f2; /*eggshell*/
+}
+table.timeline{
+	border-radius: 13px; 
+	border-spacing: 0;
+}
+th.timeline{
+	background-image: linear-gradient(#bdaf80, #756b46); /*dark and darker parchment*/
+}
+.center{
+	text-align: center;
+}
 .flowRight {
 	float: right;
 	margin: 15px;
