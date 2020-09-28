@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <title>Characters</title>
+      <title>Zelda Characters</title>
       <link href="css/styles.css" rel="stylesheet" type="text/css">
    </head>
    <body>
@@ -11,7 +11,7 @@
 		<h2 id="Class_Name">COMP 484 / L</h2>
          <nav role="navigation" text-align: center>
             <ul id="menu">
-				<li><a href="intro.html" title="Introduction"><img src="assets/nav_button_intro.png" alt="Introduction" width="19%" height="19%"></a></li>
+				<li><a href="index.html" title="Introduction"><img src="assets/nav_button_intro.png" alt="Introduction" width="19%" height="19%"></a></li>
 				<li><a href="characters.html" title="Characters"><img src="assets/nav_button_chars.png" alt="Characters" width="19%" height="19%"></a></li>
 				<li><a href="lore.html" title="Lore"><img src="assets/nav_button_lore.png" alt="Lore" width="19%" height="19%"></a></li>
 				<li><a href="timeline.html" title="Timeline"><img src="assets/nav_button_timeline.png" alt="Timeline" width="19%" height="19%"></a></li>
@@ -32,25 +32,25 @@
 					<h3>The Main Characters</h3>
 					<table class="center">
 						<tr>
-							<td class="desc">
+							<td class="desc" id="link">
 								<h4>Link</h4>
-								<p>A courageous young lad clad in green. He wields the Triforce of Courage and the Master Sword. Using his wits and everlasting courage he endeavors to bring peace back to the land of Hyrule. While their are many heroes that go by the name Link, they all share one thing in common, the spirit of the hero.</p>
+								<p>A courageous young lad clad in green. He wields the <a href="lore.html#courage" title="Triforce of Courage">Triforce of Courage</a> and the Master Sword. Using his wits and everlasting courage he endeavors to bring peace back to the land of Hyrule. While their are many heroes that go by the name Link, they all share one thing in common, the spirit of the hero.</p>
 							</td>
 							<td class="pic"><img src="assets/characters/link.png" alt="Link Picture" width="400" height="400"></td>
 						</tr>
 						
 						<tr>
-							<td class="desc">
+							<td class="desc" id="zelda">
 								<h4>Zelda</h4>
-								<p>The Princess of Hyrule's royal family. She possesses the Triforce of Wisdom which enhances her existant supernatural abilities. Legends say that the Princess is a descendant of the Goddess herself. Zelda assists Link in defeating evil in whichever era it may reside.</p>
+								<p>The Princess of Hyrule's royal family. She possesses the <a href="lore.html#wisdom" title="Triforce of Wisdom">Triforce of Wisdom</a> which enhances her existant supernatural abilities. Legends say that the Princess is a descendant of the Goddess herself. Zelda assists Link in defeating evil in whichever era it may reside.</p>
 							</td>
 							<td><img src="assets/characters/zelda.png" alt="Zelda Picture" width="400" height="400"></td>
 						</tr>
 						
 						<tr>
-							<td class="desc">
+							<td class="desc" id="ganon">
 								<h4>Ganondorf</h4>
-								<p>The Evil King of Thieves, Ganondorf is the wielder of the Triforce of Power. With his part of the holy relic he has umatched physical prowess. The Triforce also grants him the ability to transform into the fearsome beast known as Ganon. Ganon's only weakness is holy weapons be it the arrows of light, or the Master Sword.</p>
+								<p>The Evil King of Thieves, Ganondorf is the wielder of the <a href="lore.html#power" title="Triforce of Power">Triforce of Power.</a> With his part of the holy relic he has umatched physical prowess. The Triforce also grants him the ability to transform into the fearsome beast known as Ganon. Ganon's only weakness is holy weapons be it the arrows of light, or the Master Sword.</p>
 							</td>
 							<td><img src="assets/characters/ganon.png" alt="Ganon Picture" width="400" height="400"></td>
 						</tr>
@@ -76,7 +76,7 @@
 							<td class="desc">
 								<h4>Tingle</h4>
 								<p>A strange little 35 year old man. He believes he is the reincarnation of a fairy.</p>
-								<aside>I'm not making this up</aside> 
+								<aside class="char">I'm not making this up</aside> 
 								<br>
 								<p>While he may seem strange, he is an expert cartographer and he will aid Link with his mapmaking skills for a fee.</p>
 							</td>
@@ -162,7 +162,12 @@
 		</main>
 		<footer role="contentinfo">
 		<p> The Legend of Zelda &trade; Nintendo 1986-2020</p>
-         <p><a href="http://www.csun.edu" title="csun.edu" target="_blank">CSUN</a> <address>18111 Nordhoff St Northridge, CA 91330</address></p>
+		<p>Nintendo of America Mailing Address:</p>
+		<!--
+		This is where I used the address element. I feel the footer is a valid place to put this since it often times contains contact information. I did not want to give away my home address so I thought it would make sense to put Nintendo's mailing address since they created the series. The address element does have its own styling, however I think that it is best suited for screen readers so that they can know to read the text as if it were a street address. I could see this being a real benefit for accesibilty.
+		
+		-->
+         <address>4600 150th Ave NE Redmond, WA 98052 </address>
       </footer>
 	 </body>
 </html>

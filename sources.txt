@@ -1,50 +1,70 @@
 Sources:
 
 Assets:
-Nav buttons edited from: https://www.shutterstock.com/image-illustration/set-realistic-stone-interface-buttons-fantasy-422103172
-Background from: https://cutewallpaper.org/21/legends-of-zelda-wallpaper/Legend-of-Zelda-Wallpaper-Dump-Album-on-Imgur.jpg
-Font source: https://www.dafont.com/the-wild-breath-of-zelda.font
-Html body banner source: https://www.wallpapermaiden.com/wallpaper/29924/the-legend-of-zelda-a-link-between-worlds-castle-river/download/3840x2160
-
-Link artwork: https://freepngimg.com/png/21552-zelda-link
-Zelda artwork: https://www.mariowiki.com/Princess_Zelda
-Ganon artwork: https://www.ssbwiki.com/Ganondorf
-Impa artwork: https://www.pngegg.com/en/png-eomlc
-Tingle artwork: https://www.uokpl.rs/rsvi/iwboTbT_tingle-zelda-hd/
-Beedle artwork: https://www.zeldadungeon.net/wiki/Beedle
-Epona artwork: https://www.deviantart.com/mrvideo-vidman/art/Link-and-Epona-PNG-Render-614815663
-bokoblin artwork: https://www.pngfind.com/mpng/hoJiRxR_bokoblin-icon-legend-of-zelda-breath-of-the/
-moblin artwork: https://www.uokpl.rs/rsdown/ixTRhmT_oot-club-moblin/
-octorok artwork: https://zelda.gamepedia.com/Octorok
-tektite artwork: https://zelda.gamepedia.com/Tektite
-Stalfos artwork: https://zelda.gamepedia.com/Stalfos
-lazalfos artwork: https://zelda.gamepedia.com/Lizalfos
-
-Zelda 1 screenshot: https://www.vizzed.com/play/the-legend-of-zelda-nes-nintendo-nes-748-user-screenshots
-Zelda 2 screenshot: https://www.mobygames.com/game/nes/zelda-ii-the-adventure-of-link/screenshots/gameShotId,310523/
-Zelda: A link to the past Screenshot: https://www.mobygames.com/game/snes/legend-of-zelda-a-link-to-the-past/screenshots/gameShotId,396326/
-Zelda: Link's Awakening Screenshot: https://gamesdb.launchbox-app.com/games/images/8299
-Zelda: Ocarina of time screenshot: https://www.mobygames.com/game/n64/legend-of-zelda-ocarina-of-time/screenshots/gameShotId,765377/
-Zelda: Majora's mask screenshot: https://imgur.com/r/megalophobia/V392nlf
-Zelda Oracle of Ages/Seasons screenshot: https://killapenguin.com/screenshots/the-legend-of-zelda-oracle-of-seasons-screenshots/
-Zelda Windwaker screenshot: https://www.mobygames.com/game/gamecube/legend-of-zelda-the-wind-waker/screenshots/gameShotId,42611/
-Zelda Four Swords Adventures Screenshot: https://www.mobygames.com/game/gamecube/legend-of-zelda-four-swords-adventures/screenshots/gameShotId,99848/
-Zelda: Four Swords Screenshot: https://goombastomp.com/four-swords-exclusivity/
-Zelda: Minish Cap screenshot: https://www.mobygames.com/game/gameboy-advance/legend-of-zelda-the-minish-cap/screenshots/gameShotId,102040/
-Zelda: Twilight Princess screenshot: https://gamecritics.com/gene-park/the-legend-of-zelda-twilight-princess-review/
-Zelda Phantom Hourglass screenshot: https://www.pinterest.com/pin/574912708653893134/
-Zelda: Spirit Tracks screenshot: https://www.twoguysplayingzelda.com/news/spirit-tracks-through-the-lens-of-truth/spirit-tracks-gameplay/
-Zelda: Skyward Sword screenshot: https://www.justpushstart.com/2012/08/get-skyward-sword-for-15-at-bestbuy/
-Zelda: A Link between worlds screenshot: https://www.zeldadungeon.net/more-a-link-between-worlds-screenshots/
-Zelda: Triforce Heroes screenshot: https://gamesites.nintendo.com.au/the-legend-of-zelda-tri-force-heroes/gameplay.html
-Zelda: Breath of the wild screenshot: https://www.youtube.com/watch?v=kCHlp1W1GQk
+	Nav buttons edited from: https://www.shutterstock.com/image-illustration/set-realistic-stone-interface-buttons-fantasy-422103172
+	Background from: https://cutewallpaper.org/21/legends-of-zelda-wallpaper/Legend-of-Zelda-Wallpaper-Dump-Album-on-Imgur.jpg
+	Font source: https://www.dafont.com/the-wild-breath-of-zelda.font
+	Html body banner source: https://www.wallpapermaiden.com/wallpaper/29924/the-legend-of-zelda-a-link-between-worlds-castle-river/download/3840x2160
+	
+	Index:
+		Link running animation: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3b3289e6-5928-41fb-bc7f-53ce29c3e78e/d6ufphv-9db79b7f-6450-42a2-969c-3b215576cce8.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8zYjMyODllNi01OTI4LTQxZmItYmM3Zi01M2NlMjljM2U3OGUvZDZ1ZnBodi05ZGI3OWI3Zi02NDUwLTQyYTItOTY5Yy0zYjIxNTU3NmNjZTguZ2lmIn1dXX0.CxJiGtjAK7F4V8J5c67LkRfwYDULWHzF6VVXXE6GBSY
+		Miyamoto Picture: https://www.pinterest.se/pin/110549365832275958/
+		zelda heart gif: https://64.media.tumblr.com/26f65ac47285f5d235860d92da469a08/tumblr_py25xoyfHV1yuxon5o1_400.gifv
+	
+	Character Art:
+		Link artwork: https://freepngimg.com/png/21552-zelda-link
+		Zelda artwork: https://www.mariowiki.com/Princess_Zelda
+		Ganon artwork: https://www.ssbwiki.com/Ganondorf
+		Impa artwork: https://www.pngegg.com/en/png-eomlc
+		Tingle artwork: https://www.uokpl.rs/rsvi/iwboTbT_tingle-zelda-hd/
+		Beedle artwork: https://www.zeldadungeon.net/wiki/Beedle
+		Epona artwork: https://www.deviantart.com/mrvideo-vidman/art/Link-and-Epona-PNG-Render-614815663
+		bokoblin artwork: https://www.pngfind.com/mpng/hoJiRxR_bokoblin-icon-legend-of-zelda-breath-of-the/
+		moblin artwork: https://www.uokpl.rs/rsdown/ixTRhmT_oot-club-moblin/
+		octorok artwork: https://zelda.gamepedia.com/Octorok
+		tektite artwork: https://zelda.gamepedia.com/Tektite
+		Stalfos artwork: https://zelda.gamepedia.com/Stalfos
+		lazalfos artwork: https://zelda.gamepedia.com/Lizalfos
+	
+	Timeline Screenshots:
+		Zelda 1 screenshot: https://www.vizzed.com/play/the-legend-of-zelda-nes-nintendo-nes-748-user-screenshots
+		Zelda 2 screenshot: https://www.mobygames.com/game/nes/zelda-ii-the-adventure-of-link/screenshots/gameShotId,310523/
+		Zelda: A link to the past Screenshot: https://www.mobygames.com/game/snes/legend-of-zelda-a-link-to-the-past/screenshots/gameShotId,396326/
+		Zelda: Link's Awakening Screenshot: https://gamesdb.launchbox-app.com/games/images/8299
+		Zelda: Ocarina of time screenshot: https://www.mobygames.com/game/n64/legend-of-zelda-ocarina-of-time/screenshots/gameShotId,765377/
+		Zelda: Majora's mask screenshot: https://imgur.com/r/megalophobia/V392nlf
+		Zelda Oracle of Ages/Seasons screenshot: https://killapenguin.com/screenshots/the-legend-of-zelda-oracle-of-seasons-screenshots/
+		Zelda Windwaker screenshot: https://www.mobygames.com/game/gamecube/legend-of-zelda-the-wind-waker/screenshots/gameShotId,42611/
+		Zelda Four Swords Adventures Screenshot: https://www.mobygames.com/game/gamecube/legend-of-zelda-four-swords-adventures/screenshots/gameShotId,99848/
+		Zelda: Four Swords Screenshot: https://goombastomp.com/four-swords-exclusivity/
+		Zelda: Minish Cap screenshot: https://www.mobygames.com/game/gameboy-advance/legend-of-zelda-the-minish-cap/screenshots/gameShotId,102040/
+		Zelda: Twilight Princess screenshot: https://gamecritics.com/gene-park/the-legend-of-zelda-twilight-princess-review/
+		Zelda Phantom Hourglass screenshot: https://www.pinterest.com/pin/574912708653893134/
+		Zelda: Spirit Tracks screenshot: https://www.twoguysplayingzelda.com/news/spirit-tracks-through-the-lens-of-truth/spirit-tracks-gameplay/
+		Zelda: Skyward Sword screenshot: https://www.justpushstart.com/2012/08/get-skyward-sword-for-15-at-bestbuy/
+		Zelda: A Link between worlds screenshot: https://www.zeldadungeon.net/more-a-link-between-worlds-screenshots/
+		Zelda: Triforce Heroes screenshot: https://gamesites.nintendo.com.au/the-legend-of-zelda-tri-force-heroes/gameplay.html
+		Zelda: Breath of the wild screenshot: https://www.youtube.com/watch?v=kCHlp1W1GQk
+	
+	Lore Art:
+		Triforce art adapted from: https://zelda.gamepedia.com/Triforce
+		Golden goddess art from: https://zelda.gamepedia.com/Golden_Goddess
+		goddess art from: https://zelda.gamepedia.com/File:SS_Hylia_and_Surface_Races.png
+		demise art from: https://zelda.gamepedia.com/Demise
+	
+	Music:
+		Sacred realm music: https://www.youtube.com/watch?v=POfJokA0fLc
 
 
 HTML/CSS Techniques:
-Display list in line technique found at https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_horizontal
-Heading shadow effect technique found from: https://www.w3schools.com/css/css3_shadows.asp
-Custom font import technique found from: https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website
-CSS all caps text technique found at: https://www.w3schools.com/cssref/pr_text_text-transform.asp
-CSS background image technique found at: https://www.w3schools.com/cssref/pr_background-image.asp
-CSS rounded element corners found at: https://www.w3schools.com/css/css3_borders.asp
-CSS Gradient background found at: https://www.w3schools.com/css/css3_gradients.asp
+	Display list in line technique found at https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_horizontal
+	Heading shadow effect technique found from: https://www.w3schools.com/css/css3_shadows.asp
+	Custom font import technique found from: https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website
+	CSS all caps text technique found at: https://www.w3schools.com/cssref/pr_text_text-transform.asp
+	CSS background image technique found at: https://www.w3schools.com/cssref/pr_background-image.asp
+	CSS rounded element corners found at: https://www.w3schools.com/css/css3_borders.asp
+	CSS Gradient background found at: https://www.w3schools.com/css/css3_gradients.asp
+	HTML audio usage found at: https://www.w3schools.com/html/html5_audio.asp
+	HTML audio autoplay found at: https://www.w3schools.com/tags/att_audio_autoplay.asp
+	HTML preload usage found at: https://www.w3schools.com/TAGS/att_audio_preload.asp
+	HTML audio element styling from: https://catswhocode.com/html-audio-tag/

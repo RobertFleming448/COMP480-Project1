@@ -20,8 +20,12 @@ nav a:hover {	/*makes the nav links turn yellow when selected to provide a more 
   background: yellow;
   border-radius: 10px;
 }
-nav{
-
+audio { 
+  width: 600px; 
+  border-radius: 50px;
+}
+ol aside{
+	background-color: clear;
 }
 aside{
 	background-color: blue;
@@ -30,6 +34,7 @@ aside{
 	font-weight: bold;
 	padding: 1% 1% 1%;
 	border-radius: 20px;	/*round the corners*/
+	display:inline-block;
 }
 body {
 	font-family: arial, calibri, sans-serif;
@@ -50,7 +55,7 @@ Article {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 2% 2% 2%;
-	background: #f0ebda;	/* parchment color */
+	background: #ffffeb;	/* parchment color */
 	line-height: 1.5;
 }
 h1 {
@@ -68,9 +73,16 @@ h3 {
 	text-shadow: 1px 1px 1px black; /* black drop shadow for h3 headings */
 }
 h4 {
-	font-size:200%;
+	font-size:130%;
 	text-shadow: 1px 1px 1px black; /* black drop shadow for h4 headings */
-		 
+	/*text-indent: 50px;*/
+}
+div.indent{
+	text-indent: 50px;
+}
+td.desc h4{
+	font-size:200%;
+	text-shadow: 1px 1px 1px black; /* black drop shadow for h4 headings */	
 }
 td.timeline h4{
 	font-size:150%;
