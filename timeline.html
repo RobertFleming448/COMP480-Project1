@@ -6,200 +6,222 @@
       <link href="css/styles.css" rel="stylesheet" type="text/css">
    </head>
    <body>
-      <header role="banner">
-		<h1 id="Name">Robert Fleming Project 1</h1>
-		<h2 id="Class_Name">COMP 484 / L</h2>
+      <header role="banner" class="top">
+         <h1 id="Name" text-align: center>Robert Fleming Project 1</h1>
+         <h2 id="Class_Name">COMP 484 / L</h2>
          <nav role="navigation" text-align: center>
             <ul id="menu">
-				<li><a href="index.html" title="Introduction"><img src="assets/nav_button_intro.png" alt="Introduction" width="19%" height="19%"></a></li>
-				<li><a href="characters.html" title="Characters"><img src="assets/nav_button_chars.png" alt="Characters" width="19%" height="19%"></a></li>
-				<li><a href="lore.html" title="Lore"><img src="assets/nav_button_lore.png" alt="Lore" width="19%" height="19%"></a></li>
-				<li><a href="timeline.html" title="Timeline"><img src="assets/nav_button_timeline.png" alt="Timeline" width="19%" height="19%"></a></li>
-				<li><a href="sources.txt" title="Timeline" target="_blank"><img src="assets/nav_button_sources.png" alt="Timeline" width="19%" height="19%"></a></li>
-			</table>
+            <li><a href="index.html" title="Introduction"><img src="assets/nav_button_intro.png" alt="Introduction" width="19%" height="19%"></a></li>
+            <li><a href="characters.html" title="Characters"><img src="assets/nav_button_chars.png" alt="Characters" width="19%" height="19%"></a></li>
+            <li><a href="lore.html" title="Lore"><img src="assets/nav_button_lore.png" alt="Lore" width="19%" height="19%"></a></li>
+            <li><a href="timeline.html" title="Timeline"><img src="assets/nav_button_timeline.png" alt="Timeline" width="19%" height="19%"></a></li>
+            <li><a href="sources.txt" title="Timeline" target="_blank"><img src="assets/nav_button_sources.png" alt="Timeline" width="19%" height="19%"></a></li>
+            </table>
          </nav>
       </header>
-		<main role="main">
-			<article role="article">
-				<header>
-					<h2>Timeline</h2>
-					<p>The Legend of Zelda series contains many games and has numerous spin-off titles and licensed tie-ins. This page will serve as a timeline of all official main-line titles including some background information.</p>
-				</header>
-				
-				<hr>
-				<br>
-				
-				<section>
-				<!--
-				This is a more traditional use of a table than the example used on the characters page. While that example used the table element to structure the page in a certain way, this usage is used as a way of structuring data. In this example I have used the <th></th> tags as well in order to provide a heading for each attribute of the table. This example of a table reads much closer to a database table or excel spreadsheet and as a result is an effective way of describing data.
-				-->
-					<h3>The History of Zelda</h3>
-					<table class="timeline" id="timeline">
-						<tr>
-							<th class="timeline">Title:</th>
-							<th class="timeline">Description</th>
-							<th class="timeline">Original Release Date:</th>
-							<th class="timeline">Platforms:</th>
-							<th class="timeline">Screenshot:</th>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda</h4></td>
-							<td class="timeline">Collect the 8 fragments of the Triforce of Wisdom to defeat Ganon and rescue Princess Zelda</td>
-							<td class="timeline">1986</td>
-							<td class="timeline">Nintendo&nbsp;Entertainment&nbsp;System,<br>Gameboy Advance,<br>Gamecube,<br>Wii<br>3ds,<br>Wii U,<br>Nintendo Switch</td>
-							<td class="timeline"><img src="assets/timeline/zelda1.png" alt="Zelda 1 Picture" width="400" height="300"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>Zelda II:<br>The Adventure of Link</h4></td>
-							<td class="timeline">Gather the Crystals in Palaces across Hyrule to prevent Ganon's ressurection and heal the cursed Princess Zelda</td>
-							<td class="timeline">1987</td>
-							<td class="timeline">Nintendo&nbsp;Entertainment&nbsp;System,<br>Gameboy Advance,<br>Gamecube,<br>Wii<br>3ds,<br>Wii U,<br>Nintendo Switch</td>
-							<td class="timeline"><img src="assets/timeline/zelda2.png" alt="Zelda 2 Picture" width="400" height="300"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda:<br>A Link to the Past</h4></td>
-							<td class="timeline">Rescue the seven Wise men's daughters and to stop Ganon fromtaking over the realm of light</td>
-							<td class="timeline">1991</td>
-							<td class="timeline">Super&nbsp;Nintendo&nbsp;Entertainment&nbsp;System,<br>Gameboy Advance,<br>Gamecube,<br>Wii<br>3ds,<br>Wii U,<br>Nintendo Switch</td></td>
-							<td class="timeline"><img src="assets/timeline/alttp.png" alt="Zelda A Link to the Past Picture" width="400" height="300"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Link's Awakening</h4></td>
-							<td class="timeline">Explore a strange island within a water spirit's dream. Defeat the nightmare to return home</td>
-							<td class="timeline">1993</td>
-							<td class="timeline">Gameboy<br>Gameboy Color<br>3ds<br>Nintendo Switch&nbsp;<em>(Remake)</em></td>
-							<td class="timeline"><img src="assets/timeline/awakening.png" alt="Zelda Link's Awakening Picture" width="300" height="300"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Ocarina of Time</h4></td>
-							<td class="timeline">Face Ganondorf, the King of Evil, and foil his plan to destroy Hyrule</td>
-							<td class="timeline">1998</td>
-							<td class="timeline">Nintendo 64,<br>Gamecube,<br>3ds&nbsp;<em>(Remake)</em></td>
-							<td class="timeline"><img src="assets/timeline/oot.png" alt="Zelda Ocarina of Time Picture" width="400" height="225"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Majora's Mask</h4></td>
-							<td class="timeline">Prevent a demon from crashing the moon into the small realm of Termina</td>
-							<td class="timeline">2000</td>
-							<td class="timeline">Nintendo 64,<br>Gamecube,<br>3ds&nbsp;<em>(Remake)</em></td>
-							<td class="timeline"><img src="assets/timeline/majora.png" alt="Zelda Majora's Mask Picture" width="400" height="225"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Oracle of Seasons and Oracle of Ages</h4></td>
-							<td class="timeline">Save the Oracles of Seasons and Time from the clutches of Ganon's forces</td>
-							<td class="timeline">2001</td>
-							<td class="timeline">Gameboy Color<br>3ds<br>Nintendo Switch&nbsp;<em>(Remake)</td>
-							<td class="timeline"><img src="assets/timeline/oracle.png" alt="Zelda Oracle Picture" width="300" height="300"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Four Swords</h4></td>
-							<td class="timeline">Join your friends in a 4-player journey to stop the Wind Mage Vaati</td>
-							<td class="timeline">2002</td>
-							<td class="timeline">Gameboy Advance,<br>3ds</td>
-							<td class="timeline"><img src="assets/timeline/fourswords.png" alt="Zelda Four Swords Picture" width="300" height="200"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: The Wind Waker</h4></td>
-							<td class="timeline">Sail across the great sea to save your kidnapped sister and defeat Ganondorf</td>
-							<td class="timeline">2002</td>
-							<td class="timeline">Gamecube,<br>Wii U</td>
-							<td class="timeline"><img src="assets/timeline/windwaker.png" alt="Zelda Wind Waker Picture" width="400" height="300"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Four Swords Adventures</h4></td>
-							<td class="timeline">Join three friends as you journey across Hyrule to stop the Wind Mage, Vaati, from resurrecting Ganon</td>
-							<td class="timeline">2004</td>
-							<td class="timeline">Gamecube</td>
-							<td class="timeline"><img src="assets/timeline/4swords_adventure.png" alt="Zelda Four Swords Adventures Picture" width="400" height="300"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: The Minish Cap</h4></td>
-							<td class="timeline">Join Ezlo as you explore Hyrule with the ability to shrink to the size of an ant</td>
-							<td class="timeline">2004</td>
-							<td class="timeline">Gameboy Advance,<br>Wii U</td>
-							<td class="timeline"><img src="assets/timeline/minish.png" alt="Zelda Minish Cap Picture" width="300" height="200"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Twilight Princess</h4></td>
-							<td class="timeline">Protect the world from falling to Twilight by defeating the Emperor of Twilight, Zant</td>
-							<td class="timeline">2006</td>
-							<td class="timeline">Gamecube,<br>Wii,<br>Wii U</td>
-							<td class="timeline"><img src="assets/timeline/twilight.png" alt="Zelda Twilight Princess Picture" width="400" height="300"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Phantom Hourglass</h4></td>
-							<td class="timeline">Defeat the Ocean King on your quest to rescue Zelda in a far off land</td>
-							<td class="timeline">2007</td>
-							<td class="timeline">Nintendo DS</td>
-							<td class="timeline"><img src="assets/timeline/phantom.png" alt="Zelda Phantom Hourglass Picture" width="400" height="300"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Spirit Tracks</h4></td>
-							<td class="timeline">Become a train engineer to stop Chancellor Cole's plot to take over the world</td>
-							<td class="timeline">2009</td>
-							<td class="timeline">Nintendo DS</td>
-							<td class="timeline"><img src="assets/timeline/spirit.png" alt="Zelda Spirit Tracks Picture" width="400" height="300"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Skyward Sword</h4></td>
-							<td class="timeline">Prevent the Demon King Demise from resurrecting as you explore the world below the clouds</td>
-							<td class="timeline">2011</td>
-							<td class="timeline">Wii</td>
-							<td class="timeline"><img src="assets/timeline/skyward.png" alt="Zelda Skyward Sword Picture" width="400" height="300"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda:<br>A Link Between Worlds</h4></td>
-							<td class="timeline">Journey between Hyrule and Lorule to stop the Mad Artist, Yuga's evil plan</td>
-							<td class="timeline">2013</td>
-							<td class="timeline">3ds</td>
-							<td class="timeline"><img src="assets/timeline/albw.png" alt="Zelda A Link Between Worlds Picture" width="400" height="240"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Tri Force Heroes</h4></td>
-							<td class="timeline">Join 2 friends while dressing up in a multitude of outfits to stop the evil Witch</td>
-							<td class="timeline">2015</td>
-							<td class="timeline">3ds</td>
-							<td class="timeline"><img src="assets/timeline/triforce_heroes.png" alt="Zelda Tri-Force Heroes Picture" width="400" height="240"></td>
-						</tr>
-						
-						<tr>
-							<td class="timeline"><h4>The Legend of Zelda: Breath of the Wild</h4></td>
-							<td class="timeline">Travel across the destroyed land of Hyrule as you try to recall your lost memories</td>
-							<td class="timeline">2017</td>
-							<td class="timeline">Wii U,<br>Switch</td>
-							<td class="timeline"><img src="assets/timeline/botw.png" alt="Zelda Breath of the Wild Picture" width="400" height="225"></td>
-						</tr>
-					</table>
-				</section>
-			</article
-		</main>
-		<footer role="contentinfo">
-		<p> The Legend of Zelda &trade; Nintendo 1986-2020</p>
-		<p>Nintendo of America Mailing Address:</p>
-		<!--
-		This is where I used the address element. I feel the footer is a valid place to put this since it often times contains contact information. I did not want to give away my home address so I thought it would make sense to put Nintendo's mailing address since they created the series. The address element does have its own styling, however I think that it is best suited for screen readers so that they can know to read the text as if it were a street address. I could see this being a real benefit for accesibilty.
-		
-		-->
+      <main role="main">
+         <article role="article">
+         <header>
+            <h2>Timeline</h2>
+            <p>The Legend of Zelda series contains many games and has numerous spin-off titles and licensed tie-ins. This page will serve as a timeline of all official main-line titles including some background information.</p>
+         </header>
+         <hr>
+         <br>
+         <!--
+            Release Dates gathered from: https://en.wikipedia.org/wiki/The_Legend_of_Zelda#History
+            Image and HTML/CSS sources listed in sources.txt
+            -->
+         <section>
+            <!--
+               This is a more traditional use of a table than the example used on the characters page. While that example used the table element to structure the page in a certain way, this usage is used as a way of structuring data. In this example I have used the <th></th> tags as well in order to provide a heading for each attribute of the table. This example of a table reads much closer to a database table or excel spreadsheet and as a result is an effective way of describing data.
+               -->
+            <h3>The History of Zelda</h3>
+            <table class="timeline" id="timeline">
+               <tr>
+                  <th class="timeline">Title:</th>
+                  <th class="timeline">Description</th>
+                  <th class="timeline">Original Release Date:</th>
+                  <th class="timeline">Platforms:</th>
+                  <th class="timeline">Screenshot:</th>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda</h4>
+                  </td>
+                  <td class="timeline">Collect the 8 fragments of the Triforce of Wisdom to defeat Ganon and rescue Princess Zelda</td>
+                  <td class="timeline">1986</td>
+                  <td class="timeline">Nintendo&nbsp;Entertainment&nbsp;System,<br>Gameboy Advance,<br>GameCube,<br>Wii<br>3ds,<br>Wii U,<br>Nintendo Switch</td>
+                  <td class="timeline"><img src="assets/timeline/zelda1.png" alt="Zelda 1 Picture" width="400" height="300"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>Zelda II:<br>The Adventure of Link</h4>
+                  </td>
+                  <td class="timeline">Gather the Crystals in Palaces across Hyrule to prevent Ganon's resurrection and heal the cursed Princess Zelda</td>
+                  <td class="timeline">1987</td>
+                  <td class="timeline">Nintendo&nbsp;Entertainment&nbsp;System,<br>Gameboy Advance,<br>GameCube,<br>Wii<br>3ds,<br>Wii U,<br>Nintendo Switch</td>
+                  <td class="timeline"><img src="assets/timeline/zelda2.png" alt="Zelda 2 Picture" width="400" height="300"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda:<br>A Link to the Past</h4>
+                  </td>
+                  <td class="timeline">Rescue the seven Wise men's daughters and to stop Ganon from taking over the realm of light</td>
+                  <td class="timeline">1991</td>
+                  <td class="timeline">Super&nbsp;Nintendo&nbsp;Entertainment&nbsp;System,<br>Gameboy Advance,<br>GameCube,<br>Wii<br>3ds,<br>Wii U,<br>Nintendo Switch</td>
+                  </td>
+                  <td class="timeline"><img src="assets/timeline/alttp.png" alt="Zelda A Link to the Past Picture" width="400" height="300"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Link's Awakening</h4>
+                  </td>
+                  <td class="timeline">Explore a strange island within a water spirit's dream. Defeat the nightmare to return home</td>
+                  <td class="timeline">1993</td>
+                  <td class="timeline">Gameboy<br>Gameboy Color<br>3ds<br>Nintendo Switch&nbsp;<em>(Remake)</em></td>
+                  <td class="timeline"><img src="assets/timeline/awakening.png" alt="Zelda Link's Awakening Picture" width="300" height="300"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Ocarina of Time</h4>
+                  </td>
+                  <td class="timeline">Face Ganondorf, the King of Evil, and foil his plan to destroy Hyrule</td>
+                  <td class="timeline">1998</td>
+                  <td class="timeline">Nintendo 64,<br>GameCube,<br>3ds&nbsp;<em>(Remake)</em></td>
+                  <td class="timeline"><img src="assets/timeline/oot.png" alt="Zelda Ocarina of Time Picture" width="400" height="225"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Majora's Mask</h4>
+                  </td>
+                  <td class="timeline">Prevent a demon from crashing the moon into the small realm of Termina</td>
+                  <td class="timeline">2000</td>
+                  <td class="timeline">Nintendo 64,<br>GameCube,<br>3ds&nbsp;<em>(Remake)</em></td>
+                  <td class="timeline"><img src="assets/timeline/majora.png" alt="Zelda Majora's Mask Picture" width="400" height="225"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Oracle of Seasons and Oracle of Ages</h4>
+                  </td>
+                  <td class="timeline">Save the Oracles of Seasons and Time from the clutches of Ganon's forces</td>
+                  <td class="timeline">2001</td>
+                  <td class="timeline">Gameboy Color<br>3ds</td>
+                  <td class="timeline"><img src="assets/timeline/oracle.png" alt="Zelda Oracle Picture" width="300" height="300"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Four Swords</h4>
+                  </td>
+                  <td class="timeline">Join your friends in a 4-player journey to stop the Wind Mage Vaati</td>
+                  <td class="timeline">2002</td>
+                  <td class="timeline">Gameboy Advance,<br>3ds</td>
+                  <td class="timeline"><img src="assets/timeline/fourswords.png" alt="Zelda Four Swords Picture" width="300" height="200"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: The Wind Waker</h4>
+                  </td>
+                  <td class="timeline">Sail across the great sea to save your kidnapped sister and defeat Ganondorf</td>
+                  <td class="timeline">2002</td>
+                  <td class="timeline">GameCube,<br>Wii U</td>
+                  <td class="timeline"><img src="assets/timeline/windwaker.png" alt="Zelda Wind Waker Picture" width="400" height="300"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Four Swords Adventures</h4>
+                  </td>
+                  <td class="timeline">Join three friends as you journey across Hyrule to stop the Wind Mage, Vaati, from resurrecting Ganon</td>
+                  <td class="timeline">2004</td>
+                  <td class="timeline">GameCube</td>
+                  <td class="timeline"><img src="assets/timeline/4swords_adventure.png" alt="Zelda Four Swords Adventures Picture" width="400" height="300"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: The Minish Cap</h4>
+                  </td>
+                  <td class="timeline">Join Ezlo as you explore Hyrule with the ability to shrink to the size of an ant</td>
+                  <td class="timeline">2004</td>
+                  <td class="timeline">Gameboy Advance,<br>Wii U</td>
+                  <td class="timeline"><img src="assets/timeline/minish.png" alt="Zelda Minish Cap Picture" width="300" height="200"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Twilight Princess</h4>
+                  </td>
+                  <td class="timeline">Protect the world from falling to Twilight by defeating the Emperor of Twilight, Zant</td>
+                  <td class="timeline">2006</td>
+                  <td class="timeline">GameCube,<br>Wii,<br>Wii U</td>
+                  <td class="timeline"><img src="assets/timeline/twilight.png" alt="Zelda Twilight Princess Picture" width="400" height="300"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Phantom Hourglass</h4>
+                  </td>
+                  <td class="timeline">Defeat the Ocean King on your quest to rescue Zelda in a far-off land</td>
+                  <td class="timeline">2007</td>
+                  <td class="timeline">Nintendo DS</td>
+                  <td class="timeline"><img src="assets/timeline/phantom.png" alt="Zelda Phantom Hourglass Picture" width="400" height="300"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Spirit Tracks</h4>
+                  </td>
+                  <td class="timeline">Become a train engineer to stop Chancellor Cole's plot to take over the world</td>
+                  <td class="timeline">2009</td>
+                  <td class="timeline">Nintendo DS</td>
+                  <td class="timeline"><img src="assets/timeline/spirit.png" alt="Zelda Spirit Tracks Picture" width="400" height="300"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Skyward Sword</h4>
+                  </td>
+                  <td class="timeline">Prevent the Demon King Demise from resurrecting as you explore the world below the clouds</td>
+                  <td class="timeline">2011</td>
+                  <td class="timeline">Wii</td>
+                  <td class="timeline"><img src="assets/timeline/skyward.png" alt="Zelda Skyward Sword Picture" width="400" height="300"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda:<br>A Link Between Worlds</h4>
+                  </td>
+                  <td class="timeline">Journey between Hyrule and Lorule to stop the Mad Artist, Yuga's evil plan</td>
+                  <td class="timeline">2013</td>
+                  <td class="timeline">3ds</td>
+                  <td class="timeline"><img src="assets/timeline/albw.png" alt="Zelda A Link Between Worlds Picture" width="400" height="240"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Tri Force Heroes</h4>
+                  </td>
+                  <td class="timeline">Join 2 friends while dressing up in a multitude of outfits to stop the evil Witch</td>
+                  <td class="timeline">2015</td>
+                  <td class="timeline">3ds</td>
+                  <td class="timeline"><img src="assets/timeline/triforce_heroes.png" alt="Zelda Tri-Force Heroes Picture" width="400" height="240"></td>
+               </tr>
+               <tr>
+                  <td class="timeline">
+                     <h4>The Legend of Zelda: Breath of the Wild</h4>
+                  </td>
+                  <td class="timeline">Travel across the destroyed land of Hyrule as you try to recall your lost memories</td>
+                  <td class="timeline">2017</td>
+                  <td class="timeline">Wii U,<br>Switch</td>
+                  <td class="timeline"><img src="assets/timeline/botw.png" alt="Zelda Breath of the Wild Picture" width="400" height="225"></td>
+               </tr>
+            </table>
+         </section>
+         </article
+      </main>
+      <footer role="contentinfo">
+         <br>
+         <a href="https://github.com/RobertFleming448/COMP484-Project1" title="Introduction"><img src="assets/github.png" alt="View On GitHub" width="19%" height="19%" ></a>
+         <br>
+         <p> The Legend of Zelda &trade; Nintendo 1986-2020</p>
+         <p>Nintendo of America Mailing Address:</p>
+         <!--
+            This is where I used the address element. I feel the footer is a valid place to put this since it often times contains contact information. I did not want to give away my home address so I thought it would make sense to put Nintendo's mailing address since they created the series. The address element does have its own styling, however I think that it is best suited for screen readers so that they can know to read the text as if it were a street address. I could see this being a real benefit for accesibilty.
+            -->
          <address>4600 150th Ave NE Redmond, WA 98052 </address>
+         <a href="#top" title="Back to the top">[TOP]</a>
       </footer>
-	  
-	 </body>
-	 
+   </body>
 </html>

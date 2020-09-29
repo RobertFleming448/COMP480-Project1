@@ -6,123 +6,117 @@
       <link href="css/styles.css" rel="stylesheet" type="text/css">
    </head>
    <body>
-      <header role="banner">
-		<h1 id="Name">Robert Fleming Project 1</h1>
-		<h2 id="Class_Name">COMP 484 / L</h2>
+      <header role="banner" class="top">
+         <h1 id="Name">Robert Fleming Project 1</h1>
+         <h2 id="Class_Name">COMP 484 / L</h2>
          <nav role="navigation" text-align: center>
             <ul id="menu">
-				<li><a href="index.html" title="Introduction"><img src="assets/nav_button_intro.png" alt="Introduction" width="19%" height="19%"></a></li>
-				<li><a href="characters.html" title="Characters"><img src="assets/nav_button_chars.png" alt="Characters" width="19%" height="19%"></a></li>
-				<li><a href="lore.html" title="Lore"><img src="assets/nav_button_lore.png" alt="Lore" width="19%" height="19%"></a></li>
-				<li><a href="timeline.html" title="Timeline"><img src="assets/nav_button_timeline.png" alt="Timeline" width="19%" height="19%"></a></li>
-				<li><a href="sources.txt" title="Timeline" target="_blank"><img src="assets/nav_button_sources.png" alt="Timeline" width="19%" height="19%"></a></li>
-			</table>
+            <li><a href="index.html" title="Introduction"><img src="assets/nav_button_intro.png" alt="Introduction" width="19%" height="19%"></a></li>
+            <li><a href="characters.html" title="Characters"><img src="assets/nav_button_chars.png" alt="Characters" width="19%" height="19%"></a></li>
+            <li><a href="lore.html" title="Lore"><img src="assets/nav_button_lore.png" alt="Lore" width="19%" height="19%"></a></li>
+            <li><a href="timeline.html" title="Timeline"><img src="assets/nav_button_timeline.png" alt="Timeline" width="19%" height="19%"></a></li>
+            <li><a href="sources.txt" title="Timeline" target="_blank"><img src="assets/nav_button_sources.png" alt="Timeline" width="19%" height="19%"></a></li>
+            </table>
          </nav>
-	</header>
-	<main role="main">
-			<article role="article">
-				<header>
-				<!--
-					Several times in this project I used the align attribute in places where the "text-align" styling method wouldn't work. In order to get the audio element in the center of the page, where I wanted it, I needed to first wrap it in a <div> element. The div element supports the align attribute without changing the format of my page. With this method I was able to allign an element in the spot I wanted it without it having to be text. Later in this page I use it in a different method.
-				-->
-					<div align="center">
-					<!-- While the autoplay function used here is set to inactive in most browsers by default I thought I will still include it to demonstrate my thought process. I wanted this music to automatically play as the website loaded. Although that may not be the best for user interface, it was me just trying to demonstrate my understanding. In order to make it play automatically on the page load I also made use of the preload attribute. This attribute makes it so the resource is loaded automatically as the page loaded. I included this so the user could get some related music while reading the related lore. Although this page will not be graded in Internet Explorer, I thought it worth mentioning that it allows the autoplay functionality for audio. However I use autoplay in another section of this project to make up for this somewhat broken functionality.				
-					-->
-						<audio controls autoplay loop>
-							<source src="audio/sacred_realm.mp3" type="audio/mpeg" preload="auto" >
-							Audio Not supported by your browser
-						</audio> 
-					</div>
-					
-					<h2>Lore</h2>
-					<p>While The Legend of Zelda is a series that is mostly praised for its exploration, is also has a notable plot. Parts of the plot are revealed as the games continue. This page will function as a brief overview of some of the most notable aspects of the Zelda lore. Play the music above for a little extra ambience!</p>
-				</header>
-				
-				<br>
-				<hr>
-				<br>
-				
-				<section>
-					<h3>The Golden Goddesses</h3>
-					<p><img src="assets/lore/goddess.png" alt="Three Golden Goddesses" width=30% height=30% class="flowRight"> The Three Golden Goddess's of old are the creators of the entire world. After they created the land, the people and gave the world order, the departed into sacred realm to rest. Upon their exit, they left behind the Triforce, a sacred relic that gave man the power of creation. </p>
-					<ul>
-						<li>
-							<h4>Din</h4>
-							<p class="indent">The Goddess of Power. Din, with her strong arms created the rich red soil of the world. She is associated with the bright red flames of the Eldin region, and her power is celebrated by the Goron Tribe. Her Priestess Oracle is the fiery Oracle of Seasons and shares her name.</p>
-						</li>
-						
-						<li>
-							<h4>Nayru</h4>
-							<p class="indent">The Goddess of Wisdom. Nayru with her sound mind, gave order the soil that Din summoned forth. Nayru is praised as the Goddess of Time. Those who seak safe passage through time must pray to her. Her intellect and grace is celebrated by the Zora people. Her priestess is the Oracle of Time and shares the same name.</p>
-						</li>
-						
-						<li>
-							<h4>Farore</h4>
-							<p class="indent">The Goddess of Courage. Farore gave the newly born world life, populating the barren earth with plants, animals, and people. Farore is the token Goddess of The <a href="characters.html#link" title="chosen hero">Chosen Hero.</a> She is celebrated by the Kokiri people. Her priestess is the Oracle of Mysteries whom shares her name.
-						</li>
-					</ul>
-				</section>
-				
-				<br>
-				<hr>
-				<br>
-				<!--
-				Note that in this section a combination of the flowright styling and the allign attributes are used. There is a reason for this. On the first point, I use the image to describe a general introduction to the concept. As a result the text is much longer than the details later. For this reason I wanted the text to wrap arounf the image to use space effectively. However on the details, I wanted each image to be in line with each other on the right. If I were to use the flowRight style, they would be placed immediatley adjacent to the text making them not alligned. To fix this I used the align attribute which aligned them to the right margin seperate from the text.
-				
-				-->
-				<section>
-					<h3 id="triforce">The Triforce <img src="assets/lore/triforce.png" alt="The Triforce" width=10% height=10% class="flowRight"></h3>
-					<p>The Golden Triangles that The Golden Goddesses left behind when they entered the sacred realm. Any mortal who controls the Triforce has control over the power of creation itself, thus granting them any wish. However, in order to properly control the Triforce, its user must be perfectly balanced in all three aspects of the Goddesses: power, wisdom, courage. Should a unbalanced individual ever grasp the sacred relic, it will split into three with each piece seeking out a the person that most represents its quality.</p>
-					<br>
-					<ul>
-						<li>
-							<h4 id="power">Triforce of Power <img src="assets/lore/power.png" alt="Triforce of Power" width=10% height=10% align="right"></h4>
-							<p class="indent">The wielder of the Triforce of Power will be granted the omnipotence of the Goddess Din. This grants the user, super-human abilities including the ability to transform into a beast.</p>
-						</li>
-						<br>
-						<br>
-						<li>
-							<h4 id="wisdom">Triforce of Wisdom <img src="assets/lore/wisdom.png" alt="Triforce of Wisdom" width=10% height=10% align="right"></h4>
-							<p class="indent">The wielder of the Triforce of Wisdom will be granted the omniscience of the Goddess Nayru. This often appears as magic abilites including telekenesis and telepathy.</p>
-						</li>
-						<br>
-						<br>
-						<li>
-							<h4 id="courage">Triforce of Courage <img src="assets/lore/courage.png" alt="Triforce of Courage" width=10% height=10% align="right"></h4>
-							<p class="indent">The wielder of the Triforce of Courage is granted the eternal tenacity of the Goddess Farore. Additionally the owner of this piece will be able to wield the Blade of Evil's bane, the Master Sword.</p>
-						</li>
-					</ul>
-				</section>
-				
-				<br>
-				<br>
-				<br>
-				<hr>
-				<br>
-				
-				<section>
-					<h3>The New Goddess Vs. The Demon King</h3>
-					<p><img src="assets/lore/hylia.png" alt="The New Goddess Hylia" width=25% height=25% class="flowLeft"> Upon the Golden Goddess's exit, they entrusted the Triforce to the lesser Goddess Hylia. Hylia and her army of light fought the evil King of Demons, Demise and sealed him away. The Goddess Hylia, now feeling her work was done decided to <a href="characters.html#zelda" title="reincarnation">reincarnate as a mortal</a> to enjoy the new peace she had created.  </p>
-					
-					<p><img src="assets/lore/demise.png" alt="The Demon King" width=20% height=20% class="flowRight">  After some time, the seal weakened, and the horribly disfigured Demon king was revived. It was up to the Goddess' chosen Hero and her reincarnation to stop Demise the Demon King from taking over the world. In their quest, the Chosen Hero forged the Master Sword, a legendary blade that could defeat the Demon King forever. So, the Hero and the Demon King faced off one-on-one. Although a fierce battle, the Chosen Hero was victorious. With the Demon King's final breath he placed a curse on the Chosen Hero and Goddess' bloodline. All future descendants would be cursed by an <a href="characters.html#ganon" title="Evil">Incarnation of Evil.</a></p> 
-					
-					<p>This Incarnation of Evil would follow the bloodline of these characters for all time, and regardless of their efforts, peace would always eventually be broken by the Demon King's mallice.</p>
-
-				</section>
-				<br>
-				<br>
-			</article
-		</main>
-		<footer role="contentinfo">
-		<p> The Legend of Zelda &trade; Nintendo 1986-2020</p>
-		<p>Nintendo of America Mailing Address:</p>
-		<!--
-		This is where I used the address element. I feel the footer is a valid place to put this since it often times contains contact information. I did not want to give away my home address so I thought it would make sense to put Nintendo's mailing address since they created the series. The address element does have its own styling, however I think that it is best suited for screen readers so that they can know to read the text as if it were a street address. I could see this being a real benefit for accesibilty.
-		
-		-->
+      </header>
+      <!--
+         Info on this page I recalled from memory so I have no source for the information
+         Image and HTML/CSS sources listed in sources.txt
+         -->
+      <main role="main">
+         <article role="article">
+         <header>
+            <!--
+               Several times in this project I used the align attribute in places where the "text-align" styling method wouldn't work. In order to get the audio element in the center of the page, where I wanted it, I needed to first wrap it in a <div> element. The div element supports the align attribute without changing the format of my page. With this method I was able to allign an element in the spot I wanted it without it having to be text. Later in this page I use it in a different method.
+               -->
+            <div align="center">
+               <!-- While the autoplay function used here is set to inactive in most browsers by default I thought I will still include it to demonstrate my thought process. I wanted this music to automatically play as the website loaded. Although that may not be the best for user interface, it was me just trying to demonstrate my understanding. In order to make it play automatically on the page load I also made use of the preload attribute. This attribute makes it so the resource is loaded automatically as the page loaded. I included this so the user could get some related music while reading the related lore. Although this page will not be graded in Internet Explorer, I thought it worth mentioning that it allows the autoplay functionality for audio. However I use autoplay in another section of this project to make up for this somewhat broken functionality.				
+                  -->
+               <audio controls autoplay loop>
+                  <source src="audio/sacred_realm.mp3" type="audio/mpeg" preload="auto" >
+                  Audio Not supported by your browser
+               </audio>
+            </div>
+            <h2>Lore</h2>
+            <p>While The Legend of Zelda is a series that is mostly praised for its exploration, is also has a notable plot. Parts of the plot are revealed as the games continue. This page will function as a brief overview of some of the most notable aspects of the Zelda lore. Play the music above for a little extra ambience!</p>
+         </header>
+         <br>
+         <hr>
+         <br>
+         <section>
+            <h3>The Golden Goddesses</h3>
+            <p><img src="assets/lore/goddess.png" alt="Three Golden Goddesses" width=30% height=30% class="flowRight"> The Three Golden Goddess's of old are the creators of the entire world. After they created the land, the people and gave the world order, the departed into sacred realm to rest. Upon their exit, they left behind the Triforce, a sacred relic that gave man the power of creation. </p>
+            <ul>
+               <li>
+                  <h4>Din</h4>
+                  <p class="indent">The Goddess of Power. Din, with her strong arms created the rich red soil of the world. She is associated with the bright red flames of the Eldin region, and her power is celebrated by the Goron Tribe. Her Priestess Oracle is the fiery Oracle of Seasons and shares her name.</p>
+               </li>
+               <li>
+                  <h4>Nayru</h4>
+                  <p class="indent">The Goddess of Wisdom. Nayru with her sound mind, gave order the soil that Din summoned forth. Nayru is praised as the Goddess of Time. Those who seek safe passage through time must pray to her. Her intellect and grace are celebrated by the Zora people. Her priestess is the Oracle of Time and shares the same name.</p>
+               </li>
+               <li>
+                  <h4>Farore</h4>
+                  <p class="indent">The Goddess of Courage. Farore gave the newly born world life, populating the barren earth with plants, animals, and people. Farore is the token Goddess of The <a href="characters.html#link" title="chosen hero">Chosen Hero.</a> She is celebrated by the Kokiri people. Her priestess is the Oracle of Mysteries whom shares her name.
+               </li>
+            </ul>
+         </section>
+         <br>
+         <hr>
+         <br>
+         <!--
+            Note that in this section a combination of the flowright styling and the allign attributes are used. There is a reason for this. On the first point, I use the image to describe a general introduction to the concept. As a result the text is much longer than the details later. For this reason I wanted the text to wrap arounf the image to use space effectively. However on the details, I wanted each image to be in line with each other on the right. If I were to use the flowRight style, they would be placed immediatley adjacent to the text making them not alligned. To fix this I used the align attribute which aligned them to the right margin seperate from the text.
+            
+            -->
+         <section>
+            <h3 id="triforce">The Triforce <img src="assets/lore/triforce.png" alt="The Triforce" width=10% height=10% class="flowRight"></h3>
+            <p>The Golden Triangles that The Golden Goddesses left behind when they entered the sacred realm. Any mortal who controls the Triforce has control over the power of creation itself, thus granting them any wish. However, in order to properly control the Triforce, its user must be perfectly balanced in all three aspects of the Goddesses: power, wisdom, courage. Should an unbalanced individual ever grasp the sacred relic, it will split into three with each piece seeking out the person that most represents its quality.</p>
+            <br>
+            <ul>
+               <li>
+                  <h4 id="power">Triforce of Power <img src="assets/lore/power.png" alt="Triforce of Power" width=10% height=10% align="right"></h4>
+                  <p class="indent">The wielder of the Triforce of Power will be granted the omnipotence of the Goddess Din. This grants the user, super-human abilities including the ability to transform into a beast.</p>
+               </li>
+               <br>
+               <br>
+               <li>
+                  <h4 id="wisdom">Triforce of Wisdom <img src="assets/lore/wisdom.png" alt="Triforce of Wisdom" width=10% height=10% align="right"></h4>
+                  <p class="indent">The wielder of the Triforce of Wisdom will be granted the omniscience of the Goddess Nayru. This often appears as magic abilities including telekinesis and telepathy.</p>
+               </li>
+               <br>
+               <br>
+               <li>
+                  <h4 id="courage">Triforce of Courage <img src="assets/lore/courage.png" alt="Triforce of Courage" width=10% height=10% align="right"></h4>
+                  <p class="indent">The wielder of the Triforce of Courage is granted the eternal tenacity of the Goddess Farore. Additionally, the owner of this piece will be able to wield the Blade of Evil's bane, the Master Sword.</p>
+               </li>
+            </ul>
+         </section>
+         <br>
+         <br>
+         <br>
+         <hr>
+         <br>
+         <section>
+            <h3>The New Goddess Vs. The Demon King</h3>
+            <p><img src="assets/lore/hylia.png" alt="The New Goddess Hylia" width=25% height=25% class="flowLeft"> Upon the Golden Goddess's exit, they entrusted the Triforce to the lesser Goddess Hylia. Hylia and her army of light fought the evil King of Demons, Demise and sealed him away. The Goddess Hylia, now feeling her work was done decided to <a href="characters.html#zelda" title="reincarnation">reincarnate as a mortal</a> to enjoy the new peace she had created.  </p>
+            <p><img src="assets/lore/demise.png" alt="The Demon King" width=20% height=20% class="flowRight">  After some time, the seal weakened, and the horribly disfigured Demon king was revived. It was up to the Goddess' chosen Hero and her reincarnation to stop Demise the Demon King from taking over the world. In their quest, the Chosen Hero forged the Master Sword, a legendary blade that could defeat the Demon King forever. So, the Hero and the Demon King faced off one-on-one. Although a fierce battle, the Chosen Hero was victorious. With the Demon King's final breath, he placed a curse on the Chosen Hero and Goddess' bloodline. All future descendants would be cursed by an <a href="characters.html#ganon" title="Evil">Incarnation of Evil.</a></p>
+            <p>This Incarnation of Evil would follow the bloodline of these characters for all time, and regardless of their efforts, peace would always eventually be broken by the Demon King's malice.</p>
+         </section>
+         <br>
+         <br>
+         </article
+      </main>
+      <footer role="contentinfo">
+         <br>
+         <a href="https://github.com/RobertFleming448/COMP484-Project1" title="Introduction"><img src="assets/github.png" alt="View On GitHub" width="19%" height="19%" ></a>
+         <br>
+         <p> The Legend of Zelda &trade; Nintendo 1986-2020</p>
+         <p>Nintendo of America Mailing Address:</p>
+         <!--
+            This is where I used the address element. I feel the footer is a valid place to put this since it often times contains contact information. I did not want to give away my home address so I thought it would make sense to put Nintendo's mailing address since they created the series. The address element does have its own styling, however I think that it is best suited for screen readers so that they can know to read the text as if it were a street address. I could see this being a real benefit for accesibilty.
+            -->
          <address>4600 150th Ave NE Redmond, WA 98052 </address>
+         <a href="#top" title="Back to the top">[TOP]</a>
       </footer>
-	  
-	 </body>
-	 
+   </body>
 </html>

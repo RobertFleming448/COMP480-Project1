@@ -1,41 +1,56 @@
-html{
-	background: url(../assets/background.jpg) no-repeat center center fixed #141f18; /*Source: https://cutewallpaper.org/21/legends-of-zelda-wallpaper/Legend-of-Zelda-Wallpaper-Dump-Album-on-Imgur.jpg 
+/*more extensive source information located in sources.txt*/
+
+html {
+	background: url(../assets/background.jpg) no-repeat center center fixed #141f18;
+	/*Source: https://cutewallpaper.org/21/legends-of-zelda-wallpaper/Legend-of-Zelda-Wallpaper-Dump-Album-on-Imgur.jpg 
 	dark green alt color*/
 	background-size: 100%;
 	margin: 0;
 }
+
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 	padding: 0;
 }
+
 h1, h2, h3, h4, h5, h6 {
 	/*Font source: https://www.dafont.com/the-wild-breath-of-zelda.font zelda series font*/
 	font-family: 'the_wild_breath_of_zelda';
-	color: #ccb33d;	/* golden yellow */
-	text-transform: uppercase; /* Make all headings uppercase because this font in lowercase looks bad*/
-	font-size:100%;
+	color: #ccb33d;
+	/* golden yellow */
+	text-transform: uppercase;
+	/* Make all headings uppercase because this font in lowercase looks bad*/
+	font-size: 100%;
 	font-weight: 100;
 }
-nav a:hover {	/*makes the nav links turn yellow when selected to provide a more responsive experience and inform users that they are links*/
-  background: yellow;
-  border-radius: 10px;
+
+nav a:hover {
+	/*makes the nav links turn yellow when selected to provide a more responsive experience and inform users that they are links*/
+	background: #ccb33d;
+	/* golden yellow */
+	border-radius: 10px;
 }
-audio { 
-  width: 600px; 
-  border-radius: 50px;
+
+audio {
+	width: 600px;
+	border-radius: 50px;
 }
-ol aside{
+
+ol aside {
 	background-color: clear;
 }
-aside{
+
+aside {
 	background-color: blue;
 	color: white;
 	font-style: italic;
 	font-weight: bold;
 	padding: 1% 1% 1%;
-	border-radius: 20px;	/*round the corners*/
-	display:inline-block;
+	border-radius: 20px;
+	/*round the corners*/
+	display: inline-block;
 }
+
 body {
 	font-family: arial, calibri, sans-serif;
 	font-size: 100%;
@@ -44,10 +59,13 @@ body {
 	margin-left: auto;
 	padding: 4% 0% 0% 0%;
 	line-height: 1.5;
-	background: url(../assets/banner2.jpeg) no-repeat top center #24382c; /*Source: https://www.wallpapermaiden.com/wallpaper/29924/the-legend-of-zelda-a-link-between-worlds-castle-river/download/3840x2160 green alt background color*/
+	background: url(../assets/banner2.jpeg) no-repeat top center #24382c;
+	/*Source: https://www.wallpapermaiden.com/wallpaper/29924/the-legend-of-zelda-a-link-between-worlds-castle-river/download/3840x2160 green alt background color*/
 	background-size: 100%;
-	border-radius: 20px;	/*round the corners*/
+	border-radius: 20px;
+	/*round the corners*/
 }
+
 Article {
 	font-family: arial, calibri, sans-serif;
 	font-size: 100%;
@@ -55,95 +73,127 @@ Article {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 2% 2% 2%;
-	background: #ffffeb;	/* parchment color */
+	background: #ffffeb;
+	/* parchment color */
 	line-height: 1.5;
 }
+
 h1 {
 	margin-bottom: .4em;
-	font-size:300%;
-	text-shadow: 3px 3px 3px black;	/* black drop shadow for h1 headings */
+	font-size: 300%;
+	text-shadow: 3px 3px 3px black;
+	/* black drop shadow for h1 headings */
 }
+
 h2 {
 	margin-bottom: .2em;
-	font-size:200%;
-	text-shadow: 2px 2px 2px black; /* black drop shadow for h2 headings */
+	font-size: 200%;
+	text-shadow: 2px 2px 2px black;
+	/* black drop shadow for h2 headings */
 }
+
 h3 {
-	font-size:150%;
-	text-shadow: 1px 1px 1px black; /* black drop shadow for h3 headings */
+	font-size: 150%;
+	text-shadow: 1px 1px 1px black;
+	/* black drop shadow for h3 headings */
 }
+
 h4 {
-	font-size:130%;
-	text-shadow: 1px 1px 1px black; /* black drop shadow for h4 headings */
+	font-size: 130%;
+	text-shadow: 1px 1px 1px black;
+	/* black drop shadow for h4 headings */
 	/*text-indent: 50px;*/
 }
-div.indent{
+
+div.indent {
 	text-indent: 50px;
 }
-td.desc h4{
-	font-size:200%;
-	text-shadow: 1px 1px 1px black; /* black drop shadow for h4 headings */	
+
+td.desc h4 {
+	font-size: 200%;
+	text-shadow: 1px 1px 1px black;
+	/* black drop shadow for h4 headings */
 }
-td.timeline h4{
-	font-size:150%;
-	text-shadow: 1px 1px 1px black; /* black drop shadow for h3 headings */
+
+td.timeline h4 {
+	font-size: 150%;
+	text-shadow: 1px 1px 1px black;
+	/* black drop shadow for h3 headings */
 }
+
 p {
 	margin-bottom: 1em;
 }
+
 footer {
 	text-align: center;
 	color: white;
 }
+
 table, th, td {
 	text-align: center;
 	border-collapse: collapse;
 	margin-right: auto;
 	margin-left: auto;
 }
-th.desc, td.desc{
+
+th.desc, td.desc {
 	padding: 0% 7% 0% 7%;
 }
 
-th.pic, td.pic{
+th.pic, td.pic {
 	padding: 1% 1% 1% 1%;
 }
-ul#menu li {	/*formats nav list menu so that list displays one after the other in line */
-display:inline;		/*technique found at https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_horizontal*/
+
+ul#menu li {
+	/*formats nav list menu so that list displays one after the other in line */
+	display: inline;
+	/*technique found at https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_horizontal*/
 }
-#Name, #Class_Name{	/*makes my name and the class name at the top of the page centered */
+
+#Name, #Class_Name {
+	/*makes my name and the class name at the top of the page centered */
 	text-align: center;
 }
-em{
-	text-shadow: 2px 2px 2px #ccb33d; /*golden yellow drop-shadow*/
+
+em {
+	text-shadow: 2px 2px 2px #ccb33d;
+	/*golden yellow drop-shadow*/
 }
-.timeline{
+
+.timeline {
 	border: 1px solid black;
 	text-align: center;
 	border-collapse: collapse;
-	background: #f2f2f2; /*eggshell*/
+	background: #f2f2f2;
+	/*eggshell*/
 }
-table.timeline{
-	border-radius: 13px; 
+
+table.timeline {
+	border-radius: 13px;
 	border-spacing: 0;
 }
-th.timeline{
-	background-image: linear-gradient(#bdaf80, #756b46); /*dark and darker parchment*/
+
+th.timeline {
+	background-image: linear-gradient(#bdaf80, #756b46);
+	/*dark and darker parchment*/
 }
-.center{
+
+.center {
 	text-align: center;
 }
+
 .flowRight {
 	float: right;
 	margin: 15px;
 }
+
 .flowLeft {
 	float: left;
 	margin: 15px;
 }
-@font-face {
-    font-family: 'the_wild_breath_of_zelda';
-    src: url('../font/the_wild_breath_of_zelda-webfont.woff2') format('woff2'),
-         url('../font/the_wild_breath_of_zelda-webfont.woff') format('woff');
 
+@font-face {
+	font-family: 'the_wild_breath_of_zelda';
+	src: url('../font/the_wild_breath_of_zelda-webfont.woff2') format('woff2'), url('../font/the_wild_breath_of_zelda-webfont.woff') format('woff');
 }

@@ -1,141 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Welcome!</title>
-    <!-- link stylesheet -->
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-  </head>  
-  <body>
-      <header role="banner">
-		<h1 id="Name">Robert Fleming Project 1</h1>
-		<h2 id="Class_Name">COMP 484 / L</h2>
+   <head>
+      <title>Welcome!</title>
+      <!-- link stylesheet -->
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <header role="banner" class="top">
+         <h1 id="Name">Robert Fleming Project 1</h1>
+         <h2 id="Class_Name">COMP 484 / L</h2>
          <nav role="navigation" text-align: center>
             <ul id="menu">
-				<li><a href="index.html" title="Introduction"><img src="assets/nav_button_intro.png" alt="Introduction" width="19%" height="19%"></a></li>
-				<li><a href="characters.html" title="Characters"><img src="assets/nav_button_chars.png" alt="Characters" width="19%" height="19%"></a></li>
-				<li><a href="lore.html" title="Lore"><img src="assets/nav_button_lore.png" alt="Lore" width="19%" height="19%"></a></li>
-				<li><a href="timeline.html" title="Timeline"><img src="assets/nav_button_timeline.png" alt="Timeline" width="19%" height="19%"></a></li>
-				<li><a href="sources.txt" title="Timeline" target="_blank"><img src="assets/nav_button_sources.png" alt="Timeline" width="19%" height="19%"></a></li>
-			</table>
+            <li><a href="index.html" title="Introduction"><img src="assets/nav_button_intro.png" alt="Introduction" width="19%" height="19%"></a></li>
+            <li><a href="characters.html" title="Characters"><img src="assets/nav_button_chars.png" alt="Characters" width="19%" height="19%"></a></li>
+            <li><a href="lore.html" title="Lore"><img src="assets/nav_button_lore.png" alt="Lore" width="19%" height="19%"></a></li>
+            <li><a href="timeline.html" title="Timeline"><img src="assets/nav_button_timeline.png" alt="Timeline" width="19%" height="19%"></a></li>
+            <li><a href="sources.txt" title="Timeline" target="_blank"><img src="assets/nav_button_sources.png" alt="Timeline" width="19%" height="19%"></a></li>
+            </table>
          </nav>
       </header>
-		<main role="main">
-			<article role="article">				
-				<header>
-				
-					<!--
-						This is my example for the autoplay attribute. I used this attribute in another page but this is the only way it will work. So this acts more as an demonstration than the content of my page. The autoplay attribute will automatically play media on certain browsers. Most modern browsers block this feature so the user is not bombarded with sound as soon as a page is loaded. To get a video to autoplay it must be muted. This is why I also used the muted attribrute as well. I put this element within a <div> element so that I could apply the align attribute to center the media in where I wanted it in the page.		Additionally, I used the preload attribute because I wanted this to be loaded automatically when the page is loaded. Lastly, I did not include the control attribute for this example because I did not want the user to be able to interact with the video.
-					-->
-				
-					<div align="center">
-						<video width=100% height=100% autoplay muted loop preload="auto">
-							<source src="video/welcome.mp4" type="video/mp4">
-							Sorry Video not supported by your browser
-						</video> 
-					</div>
-				
-					<h2>Introduction</h2>
-					<p>Hello everyone, welcome to my COMP 484/L project 1 website! This website is used to demonstrate my knowledge of HTML and CSS. This website contains 4 pages, and a text document with all my sources. The professor stated that this website could be about anything we wanted so I chose a subject that I could rattle on about ad nauseum: The Legend of Zelda. </p>
-
-				<br>
-				<hr>
-				<br>
-				
-					<p><img src="assets/intro/miyamoto.png" alt="Shigeru Miyamoto" width=20% height=20% class="flowRight">The Legend of Zelda is a japanese video game series created by Nintendo. It saw its first release in 1986 on the Famicom <i>(Nintendo Entertainment System in the USA)</i> The Legend of Zelda is the brainchild of <a href="https://en.wikipedia.org/wiki/Shigeru_Miyamoto" title="More info on Shigeru Miyamoto">Shigeru Miyamoto</a>. He is also well known for creating some of the most popular video game series such as Donkey Kong, and Super Mario Bros. amongst others. Miyamoto stated that the original Legend of Zelda was inspired by his time as a child exploring the forests near his house. As an adult he wanted to portray the those feelings of wonder and adventure in a videogame. The Legend of Zelda was a huge Success and still sees releases to this day. Fans are eagerly awaiting the sequel to The Legend of Zelda: Breath of the Wild scheduled to release within two years.</p>
-					
-					<p>To give you a taste of what Zelda is and why its so special I decided to make it the focus of my first project. I have divided the four pages into unique sections:
-					
-					<div class="indent">
-					<dl>
-						<dt><h4>Introduction:</h4></dt>
-						<dd>A brief overview of the series and an explanation for the page.
-						<strong>You're here now!</strong></dd>
-						
-						<dt><h4>Characters:</h4></dt>
-						<dd>Brief descriptions of some of the series' main characters, recurring characters, and bad guys!</dd>
-						
-						<dt><h4>Lore:</h4></dt>
-						<dd>An overview of in-universe history and how characters relate to the plot.</dd>
-						
-						<dt><h4>Timeline:</h4></dt>
-						<dd>A collection of every main series game as well as some additional info. <strong>See how the series changed through the years!</strong></dd>
-						
-						<dt><h4>Sources:</h4></dt>
-						<dd>A text file where I placed all my sources including all the sounds/pictures/video assets and the techniques I used for HTML and CSS. If you want to see how I made this site check it out!</strong></dd>
-					</dl>
-					</div>
-					
-					To navigate to these pages click on the green stone tablets above!
-					</p>
-				</header>
-				
-				<br>
-				<hr>
-				<br>
-				
-				<section>
-					<h3>My Personal History with the Series</h3>
-					<p><img src="assets/intro/heart.webp" alt="Heart animation" width=20% height=20% class="flowRight">I was familiar with Zelda from a very young age, but it took time for me to really get into it. As a young child it was much too difficult for me so I would get stuck often. This led to me not finding it very much fun. Later in my adolscence, I decided it may be time to retry the series, afterall, They did just remake a game in the series considered my many to be one of the all time greats, <em>Ocarina of Time</em>. I fell in love immediatley. The exploration was great; I loved traveling the wide expanses of Hyrule on horseback. Solving puzzles to reach secret areas felt so rewarding. I must have completed the game in 3 sittings; I was hooked! From that point on I went back and played most of the games in the series. To this day there is probably only two or three I have yet to finish. When I have more free time you better believe I'm gonna get to those!</p>
-					
-					<p> The series helped introduce me to my friend group in highschool. Yes we were the kids that brougt our DS's to school every day. To this day I keep up with almost every one of them. I consider one of those individuals to be my current best friend. In short the Legend of Zelda is not just a series I enjoy just for entertainment but I also aprreciate because it helped me come out of my shell and meet some great people.
-					
-					</p>
-				</section>
-				
-				<br>
-				<hr>
-				<br>
-				
-				<section>
-					<h3>Personal Ranking and Reasoning</h3>
-					<p> While every game in the series are great in there own way, some entries outshine the others. This list is my personal top 10 rankling of Zelda games.</p>
-					<ol reversed start="10">
-						<li><h4>The Legend of Zelda</h4></li>
-						<p>The Legend of Zelda while by today's standards may be a little rough around the edges is still a great game with a large world and fun combat. However its puzzles are a little weak so its number 10</p>
-						
-						<li><h4>The Legend of Zelda: A Link to the Past</h4></li>
-						<p>Improves on the original is every way. Many more items, more dungeons more content. It added Link's classic spin attack, whats not to love? Well... sadly the last few dungeons are a little tedious making it number 9 on the list</p>
-						
-						<li><h4>The Legend of Zelda: Link's Awakening</h4></li>
-						<p>This game has all the stuff that made A Link to the Past great all from a tiny Gameboy. Every dungeon in this game is great however it is a little short, making it number 8 on the list</p>
-						
-						<li><h4>The Legend of Zelda: Oracle of Seasons</h4></li>
-						<p>Every thing about the last title goes for this one as well. Including its drawbacks, however this game just did everything a <i>little</i> bit better that's why its number 7</p>
-						
-						<li><h4>The Legend of Zelda: A Link Between Worlds</h4></li>
-						<p>A spiritual succesor to A Link to the Past, but this time, the dungeons are <strong>all good</strong> for that reason I hold this game in very high regard. Its collectables are a little tedious to gather at times so its at slot 6</p>
-						
-						<li><h4>The Legend of Zelda: Twilight Princess</h4></li>
-						<p>Now we are getting into the hardhitters, Twilight Princess is simply good. The dungeon design is topnotch and the new sword techniques are super fun and flashy. For these reasons its my 5th favorite</p>
-						
-						<li><h4>The Legend of Zelda: Breath of the Wild</h4></li>
-						<p>Of every game on this list, this game gives you the most freedom by far. Given the sandbox nature of this title, every puzzle has near infinite solutions. The map is giant and the exploration is fantastic. The enemey variety is a little weak so its loses a few points. I am super excited to see how the sequel will improve.</p>
-						
-						<li><h4>The Legend of Zelda: The Windwaker</h4></li>
-						<p>Although cartoony in design, Wind Waker is anything but. This game let's you freely explore the ocean discovering new islands and locations as you sail. Not to mention that the game added in great reactionary combat mechanics, and fun characters. This one is truly one of my favorites.</p>
-						
-						<li><h4>The Legend of Zelda: Majora's Mask</h4></li>
-
-						<p>This is one of the darker Zelda games. The game is divided into three day cycles that repeat endlessly <i>think Bill Murray in Groundhog Day.</i> Learning each townsperson's routine and solving everyone's problems within a 3 day cycle is super rewarding and the dungeons are all fantastic.</p>
-						
-						<li><h4>The Legend of Zelda: Ocarina of Time</h4></li>
-						<p>This game is frankly just perfect to me. Every dungeon is great, the story is great, the enemies are great. Link feels great to control, his combat moveset feels super rigid and complete. Overall just a fantastic game and that is why its my favorite!</p>
-						
-					</ol>
-				</section>
-
-			</article
-		</main>
-		<footer role="contentinfo">
-		<p> The Legend of Zelda &trade; Nintendo 1986-2020</p>
-		<p>Nintendo of America Mailing Address:</p>
-		<!--
-		This is where I used the address element. I feel the footer is a valid place to put this since it often times contains contact information. I did not want to give away my home address so I thought it would make sense to put Nintendo's mailing address since they created the series. The address element does have its own styling, however I think that it is best suited for screen readers so that they can know to read the text as if it were a street address. I could see this being a real benefit for accesibilty.
-		
-		-->
+      <main role="main">
+         <article role="article">
+         <header>
+            <!--
+               This is my example for the autoplay attribute. I used this attribute in another page but this is the only way it will work. So this acts more as an demonstration than the content of my page. The autoplay attribute will automatically play media on certain browsers. Most modern browsers block this feature so the user is not bombarded with sound as soon as a page is loaded. To get a video to autoplay it must be muted. This is why I also used the muted attribrute as well. I put this element within a <div> element so that I could apply the align attribute to center the media in where I wanted it in the page. Additionally, I used the preload attribute because I wanted this to be loaded automatically when the page is loaded. Lastly, I did not include the control attribute for this example because I did not want the user to be able to interact with the video.
+               -->
+            <!--
+               Info on this page I recalled from memory so I have no source for the information
+               Image and HTML/CSS sources listed in sources.txt
+               -->
+            <section>
+            <div align="center">
+               <video width=100% height=100% autoplay muted loop preload="auto">
+                  <source src="video/welcome.mp4" type="video/mp4">
+                  Sorry Video not supported by your browser
+               </video>
+            </div>
+            <h2>Introduction</h2>
+            <p>Hello everyone, welcome to my COMP 484/L project 1 website! This website is used to demonstrate my knowledge of HTML and CSS. This website contains 4 pages, and a text document with all my sources. The professor stated that this website could be about anything we wanted so I chose a subject that I could rattle on about ad nauseum: The Legend of Zelda. If you want to see the code for my site click <a href="https://github.com/RobertFleming448/COMP484-Project1" title="View On GitHub">here</a> or click the button at the bottom of any page.</p>
+            <br>
+            <hr>
+            <br>
+            <h3>Overview</h3>
+            <p><img src="assets/intro/miyamoto.png" alt="Shigeru Miyamoto" width=20% height=20% class="flowRight">The Legend of Zelda is a Japanese video game series created by Nintendo. It saw its first release in 1986 on the Famicom <i>(Nintendo Entertainment System in the USA)</i> The Legend of Zelda is the brainchild of <a href="https://en.wikipedia.org/wiki/Shigeru_Miyamoto" title="More info on Shigeru Miyamoto">Shigeru Miyamoto</a>. He is also well known for creating some of the most popular video game series such as Donkey Kong, and Super Mario Bros. amongst others. Miyamoto stated that the original Legend of Zelda was inspired by his time as a child exploring the forests near his house. As an adult he wanted to portray those feelings of wonder and adventure in a videogame. The Legend of Zelda was a huge Success and still sees releases to this day. Fans are eagerly awaiting the sequel to The Legend of Zelda: Breath of the Wild scheduled to release within two years.</p>
+            <p>To give you a taste of what Zelda is and why it's so special I decided to make it the focus of my first project. I have divided the four pages into unique sections:
+            <div class="indent">
+               <dl>
+                  <dt>
+                     <h4>Introduction:</h4>
+                  </dt>
+                  <dd>A brief overview of the series and an explanation for the page.
+                     <strong>You're here now!</strong>
+                  </dd>
+                  <dt>
+                     <h4>Characters:</h4>
+                  </dt>
+                  <dd>Brief descriptions of some of the series' main characters, recurring characters, and bad guys!</dd>
+                  <dt>
+                     <h4>Lore:</h4>
+                  </dt>
+                  <dd>An overview of in-universe history and how characters relate to the plot.</dd>
+                  <dt>
+                     <h4>Timeline:</h4>
+                  </dt>
+                  <dd>A collection of every main series game as well as some additional info. <strong>See how the series changed through the years!</strong></dd>
+                  <dt>
+                     <h4>Sources:</h4>
+                  </dt>
+                  <dd>A text file where I placed all my sources including all the sounds/pictures/video assets and the techniques I used for HTML and CSS. I made it separate as to not clutter up my other comments. If you want to see how I made this site check it out!</strong></dd>
+               </dl>
+            </div>
+            To navigate to these pages, click on the green stone tablets above!
+            </p>
+         </header>
+         <br>
+         <hr>
+         <br>
+         <section>
+            <h3>My Personal History with the Series</h3>
+            <p><img src="assets/intro/heart.webp" alt="Heart animation" width=20% height=20% class="flowRight">I was familiar with Zelda from a very young age, but it took time for me to really get into it. As a young child it was much too difficult for me so I would get stuck often. This led to me not finding it very much fun. Later in my adolescence, I decided it may be time to retry the series. Afterall, they did just remake a game in the series considered by many to be one of the all-time greats, <em>Ocarina of Time</em>. I fell in love immediately. The exploration was great; I loved traveling the wide expanses of Hyrule on horseback. Solving puzzles to reach secret areas felt so rewarding. I must have completed the game in 3 sittings; I was hooked! From that point on I went back and played most of the games in the series. To this day there is probably only two or three I have yet to finish. When I have more free time you better believe I'm gonna get to those!</p>
+            <p> The series helped introduce me to my friend group in high school. Yes, we were the kids that brought our DS's to school every day. To this day I keep up with almost every one of them. I consider one of those individuals to be my current best friend. In short, the Legend of Zelda is not just a series I enjoy just for entertainment but I also appreciate because it helped me come out of my shell and meet some great people.
+            </p>
+         </section>
+         <br>
+         <hr>
+         <br>
+         <section>
+            <h3>Personal Ranking and Reasoning</h3>
+            <p> While every game in the series are great in their own way, some entries outshine the others. This list is my personal top 10 ranking of Zelda games.</p>
+            <ol reversed start="10">
+               <li>
+                  <h4>The Legend of Zelda</h4>
+               </li>
+               <p>The Legend of Zelda while by today's standards may be a little rough around the edges is still a great game with a large world and fun combat. However, its puzzles are a little weak so its number 10.</p>
+               <li>
+                  <h4>The Legend of Zelda: A Link to the Past</h4>
+               </li>
+               <p>Improves on the original is every way. Many more items, more dungeons more content. It added Link's classic spin attack, what's not to love? Well... sadly the last few dungeons are a little tedious making it number 9 on the list.</p>
+               <li>
+                  <h4>The Legend of Zelda: Link's Awakening</h4>
+               </li>
+               <p>This game has all the stuff that made A Link to the Past great all from a tiny Gameboy. Every dungeon in this game is great however it is a little short, making it number 8 on the list.</p>
+               <li>
+                  <h4>The Legend of Zelda: Oracle of Seasons</h4>
+               </li>
+               <p>Everything about the last title goes for this one as well. Including its drawbacks, however this game just did everything a <i>little</i> bit better that's why its number 7.</p>
+               <li>
+                  <h4>The Legend of Zelda: A Link Between Worlds</h4>
+               </li>
+               <p>A spiritual successor to A Link to the Past, but this time, the dungeons are <strong>all good</strong> for that reason I hold this game in very high regard. Its collectables are a little tedious to gather at times so it's at slot 6.</p>
+               <li>
+                  <h4>The Legend of Zelda: Twilight Princess</h4>
+               </li>
+               <p>Now we are getting into the hard hitters, Twilight Princess is simply good. The dungeon design is topnotch and the new sword techniques are super fun and flashy. For these reasons it's my 5th favorite.</p>
+               <li>
+                  <h4>The Legend of Zelda: Breath of the Wild</h4>
+               </li>
+               <p>Of every game on this list, this game gives you the most freedom by far. Given the sandbox nature of this title, every puzzle has near infinite solutions. The map is giant and the exploration is fantastic. The enemy variety is a little weak so it loses a few points. I am super excited to see how the sequel will improve.</p>
+               <li>
+                  <h4>The Legend of Zelda: The Wind Waker</h4>
+               </li>
+               <p>Although cartoony in design, Wind Waker is anything but. This game lets you freely explore the ocean discovering new islands and locations as you sail. Not to mention that the game added in great reactionary combat mechanics, and fun characters. This one is truly one of my favorites.</p>
+               <li>
+                  <h4>The Legend of Zelda: Majora's Mask</h4>
+               </li>
+               <p>This is one of the darker Zelda games. The game is divided into three-day cycles that repeat endlessly <i>think Bill Murray in Groundhog Day.</i> Learning each townsperson's routine and solving everyone's problems within a three-day cycle is super rewarding and the dungeons are all fantastic.</p>
+               <li>
+                  <h4>The Legend of Zelda: Ocarina of Time</h4>
+               </li>
+               <p>This game is frankly just perfect to me. Every dungeon is great, the story is great, the enemies are great. Link feels great to control, his combat move set feels super rigid and complete. Overall, just a fantastic game and that is why it's my favorite!</p>
+            </ol>
+         </section>
+         </article
+      </main>
+      <footer role="contentinfo">
+         <br>
+         <a href="https://github.com/RobertFleming448/COMP484-Project1" title="Github Link"><img src="assets/github.png" alt="View On GitHub" width="19%" height="19%" ></a>
+         <br>
+         <p> The Legend of Zelda &trade; Nintendo 1986-2020</p>
+         <p>Nintendo of America Mailing Address:</p>
+         <!--
+            This is where I used the address element. I feel the footer is a valid place to put this since it often times contains contact information. I did not want to give away my home address so I thought it would make sense to put Nintendo's mailing address since they created the series. The address element does have its own styling, however I think that it is best suited for screen readers so that they can know to read the text as if it were a street address. I could see this being a real benefit for accesibilty.
+            -->
          <address>4600 150th Ave NE Redmond, WA 98052 </address>
+         <a href="#top" title="Back to the top">[TOP]</a>
       </footer>
-	  
-	 </body>
-	 
+   </body>
 </html>
